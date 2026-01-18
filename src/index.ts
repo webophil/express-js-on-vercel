@@ -99,11 +99,13 @@ app.get('/', (req, res) => {
           du SEO et des applications React / TypeScript.
         </p>
 
-        <iframe
-          src="https://warm-red-wave.agentui.app?x_token_auth=..."
-          height="600"
-          loading="lazy"
-        ></iframe>
+        <p>
+          Vibe Coding VS no-code ou low-code : les applications développées en Vibe ou no-code sont-elles stables et exploitable à grande échelle ?
+        </p>
+
+        <p>
+          Des PWA (Progressive Web App) qui remplacent avantageusement les application "mobile" native ? En tous cas, c'est le moyen rapide et moins onéreux pour une application propre en évitant les coûts des Stores classiques !
+        </p>
       `
     })
   )
