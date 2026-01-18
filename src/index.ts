@@ -1,5 +1,56 @@
-import express from 'express'
+import fs from 'fs'
 import path from 'path'
+
+const header = fs.readFileSync(
+  path.join(__dirname, '..', 'components', 'header.html'),
+  'utf8'
+)
+
+const footer = fs.readFileSync(
+  path.join(__dirname, '..', 'components', 'footer.html'),
+  'utf8'
+)
+
+type PageOptions = {
+  title: string
+  description?: string
+  canonical?: string
+  content: string
+}
+
+function renderPage({
+  title,
+  description,
+  canonical,
+  content
+}: PageOptions) {
+  return `
+    <!doctype html>
+    <html lang="fr">
+      <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <title>${title}</title>
+        ${description ? `<meta name="description" content="${description}"/>` : ''}
+        ${canonical ? `<link rel="canonical" href="${canonical}"/>` : ''}
+
+        <meta name="author" content="PhilDEV"/>
+
+        <link rel="stylesheet" href="/style.css"/>
+      </head>
+      <body>
+        ${header}
+        <main class="container">
+          ${content}
+        </main>
+        ${footer}
+      </body>
+    </html>
+  `
+}
+
+import express from 'express'
 import { fileURLToPath } from 'url'
 
 const __filename = fileURLToPath(import.meta.url)
