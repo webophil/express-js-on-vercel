@@ -128,26 +128,6 @@ app.get('/auditseo', (req, res) => {
 })
 
 /* -------------------------------------------------
-   API routes
-------------------------------------------------- */
-
-// Example API endpoint
-app.get('/api-data', (req, res) => {
-  res.json({
-    message: 'Here is some sample API data',
-    items: ['apple', 'banana', 'cherry']
-  })
-})
-
-// Health check
-app.get('/healthz', (req, res) => {
-  res.status(200).json({
-    status: 'ok',
-    timestamp: new Date().toISOString()
-  })
-})
-
-/* -------------------------------------------------
    Export app (Vercel)
 ------------------------------------------------- */
 
