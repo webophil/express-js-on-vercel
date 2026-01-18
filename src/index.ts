@@ -18,8 +18,9 @@ app.get('/', (req, res) => {
         <link rel="stylesheet" href="/style.css" />
       </head>
       <body>
-      <img src="/phildev-logo.png" alt="développement web" width="400" />
+      
         <nav>
+        <img src="/phildev-logo.png" alt="développement web" width="400" />
           <a href="https://phildev.fr">Accueil PhilDEV</a>
           <a href="/about">About</a>
           <a href="/api-data">API Data</a>
