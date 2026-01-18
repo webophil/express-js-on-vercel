@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
 
       <nav>
         <a href="https://phildev.fr">Accueil PhilDEV</a>
-        <a href="/about">About</a>
+        <a href="/auditseo">Audit SEO</a>
         <a href="/api-data">API Data</a>
         <a href="/healthz">Health</a>
       </nav>
