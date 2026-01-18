@@ -24,15 +24,34 @@ app.get('/', (req, res) => {
         <link rel="stylesheet" href="/style.css" />
       </head>
       <body>
-      <img src="/phildev-logo.png" alt="développement web" width="400" align="left"/>
-        <nav>
-          <a href="https://phildev.fr">Accueil PhilDEV</a>
-          <a href="/about">About</a>
-          <a href="/api-data">API Data</a>
-          <a href="/healthz">Health</a>
-        </nav>
-        <iframe src="https://warm-red-wave.agentui.app?x_token_auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd0lkIjoiY21rZzZjd3dwMDA4a3M0MWZsdXFrempxZSIsImlzU2VydmljZVRva2VuIjp0cnVlLCJleHAiOjE4MDAyNzcxOTgzMDcsImlhdCI6MTc2ODc0MTE5OH0.c3OaYd6fOdcVvErd_xVch0nTGPgxoBmHxan19aHS3MI" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
-      </body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <img
+        src="/phildev-logo.png"
+        alt="PhilDEV - développement web"
+        class="logo"
+      />
+
+      <nav>
+        <a href="https://phildev.fr">Accueil PhilDEV</a>
+        <a href="/about">About</a>
+        <a href="/api-data">API Data</a>
+        <a href="/healthz">Health</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Iframe temporaire de test -->
+    <iframe
+      src="https://warm-red-wave.agentui.app?x_token_auth=..."
+      height="600"
+      loading="lazy"
+    ></iframe>
+  </main>
+
+</body>
     </html>
   `)
 })
