@@ -14,7 +14,13 @@ app.get('/', (req, res) => {
     <html>
       <head>
         <meta charset="utf-8"/>
-        <title>Express on Vercel</title>
+        <title>Outils Vibe Coding par PhilDEV</title>
+        <meta 
+        name="description" 
+        content="Outils et aides au développement en Vibe Coding - SEO et environnement React/TypeScript"
+        />
+        <meta name="author" content="PhilDEV" />
+        <link rel="canonical" href="https://outils.phildev.fr" />
         <link rel="stylesheet" href="/style.css" />
       </head>
       <body>
