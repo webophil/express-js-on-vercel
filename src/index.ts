@@ -56,8 +56,8 @@ app.get('/', (req, res) => {
   `)
 })
 
-app.get('/about', function (req, res) {
-  res.sendFile(path.join(__dirname, '..', 'components', 'about.htm'))
+app.get('/auditseo', function (req, res) {
+  res.sendFile(path.join(__dirname, '..', 'components', 'auditseo.htm'))
 })
 
 // Example API endpoint - JSON
