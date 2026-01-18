@@ -23,12 +23,19 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Header */
+/* Header fixé et dark */
 .site-header {
-  background: #0b0c10;
+  position: fixed;        /* fixe le header */
+  top: 0;                 /* en haut de la page */
+  left: 0;
+  width: 100%;            /* occupe toute la largeur */
+  background: #0b0c10;    /* conserve ton fond dark */
   border-bottom: 1px solid #1f2937;
+  z-index: 1000;          /* toujours au-dessus du reste */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* optionnel : un peu de relief */
 }
 
+/* Container du header centré et flex */
 .header-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -37,7 +44,6 @@ a:hover {
   align-items: center;
   gap: 2rem;
 }
-
 /* Logo */
 .logo {
   height: 100px;
@@ -56,6 +62,14 @@ nav a {
   margin: 0 auto;
   padding: 2rem 1rem;
 }
+
+main.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  margin-top: 80px; /* ou la hauteur exacte de ton header */
+}
+
 
 /* Iframe responsive */
 iframe {
