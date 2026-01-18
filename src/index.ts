@@ -27,8 +27,7 @@ app.get('/', (req, res) => {
         <h1>Welcome to Express on Vercel 🚀</h1>
         <p>This is a minimal example without a database or forms.</p></p>
         <img src="/logo.png" alt="Logo" width="120" />
-        <p><iframe src="https://warm-red-wave.agentui.app?x_token_auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd0lkIjoiY21rZzZjd3dwMDA4a3M0MWZsdXFrempxZSIsImlzU2VydmljZVRva2VuIjp0cnVlLCJleHAiOjE4MDAyNzcxOTgzMDcsImlhdCI6MTc2ODc0MTE5OH0.c3OaYd6fOdcVvErd_xVch0nTGPgxoBmHxan19aHS3MI" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
-        </p>
+        <iframe src="https://warm-red-wave.agentui.app?x_token_auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd0lkIjoiY21rZzZjd3dwMDA4a3M0MWZsdXFrempxZSIsImlzU2VydmljZVRva2VuIjp0cnVlLCJleHAiOjE4MDAyNzcxOTgzMDcsImlhdCI6MTc2ODc0MTE5OH0.c3OaYd6fOdcVvErd_xVch0nTGPgxoBmHxan19aHS3MI" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
       </body>
     </html>
   `)
