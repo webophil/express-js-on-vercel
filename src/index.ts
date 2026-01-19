@@ -62,7 +62,15 @@ function renderPage({
     <title>${title}</title>
     ${description ? `<meta name="description" content="${description}"/>` : ''}
     ${canonical ? `<link rel="canonical" href="${canonical}"/>` : ''}
-
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://storage.googleapis.com/gpt-engineer-file-uploads/asNNCVmjyJgOakDIePcVcN7tw2x2/uploads/1767451716548-iconePhD.png"
+    />
+    <!-- Geo metadata for local SEO -->
+    <meta name="geo.region" content="FR-GES" />
+    <meta name="geo.placename" content="Reims" />
+    <meta name="geo.position" content="49.2583;4.0317" />
     <meta name="author" content="PhilDEV"/>
 
     <link rel="stylesheet" href="/style.css"/>
