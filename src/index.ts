@@ -137,6 +137,24 @@ app.get('/auditseo', (req, res) => {
     })
   )
 })
+// PWA Mobile
+app.get('/pwa-mobile', (req, res) => {
+  const auditContent = fs.readFileSync(
+    path.join(__dirname, '..', 'components', 'pwa-mobile.htm'),
+    'utf8'
+  )
+
+  res.type('html').send(
+    renderPage({
+      title: 'Progressive Web App - application mobile en plus facile',
+      description:
+        'Création de Progressive Web Apps pour mobile, installable sur tous les téléphones',
+      canonical: 'https://outils.phildev.fr/pwa-mobile',
+      content: auditContent
+    })
+  )
+})
+
 
 /* -------------------------------------------------
    Export app (Vercel)
