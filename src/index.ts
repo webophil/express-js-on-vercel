@@ -94,7 +94,7 @@ app.get('/', (req, res) => {
       content: `
         <h1>Outils Vibe Coding</h1>
 
-        <img src="iconePhD.png" width="150" alt="Vibe Coding à Reims" class="image-gauche">
+        <img src="vibecoding.jpg" width="180" alt="Vibe Coding à Reims" class="image-gauche">
         <p>
           Ressources, analyses et outils autour du développement web moderne,
           du SEO et des applications React / TypeScript.
