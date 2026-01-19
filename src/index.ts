@@ -97,15 +97,15 @@ app.get('/', (req, res) => {
         <img src="vibecoding.jpg" width="180" alt="Vibe Coding à Reims" class="image-gauche">
         <p>
           Ressources, analyses et outils autour du développement web moderne,
-          du SEO et des applications React / TypeScript.
+          du SEO adapté et des applications web React/TypeScript.
         </p>
 
         <p>
-          Vibe Coding VS no-code ou low-code : les applications développées en Vibe ou no-code sont-elles stables et exploitable à grande échelle ?
+          Vibe Coding VS no-code ou low-code : les applications développées en Vibe ou no-code sont-elles stables et exploitables à grande échelle ? Oui, si on contrôle et gère l'architecture et la hiérarchie du code. OUI si on utilise les bons leviers de protection et de sécurisation !
         </p>
 
         <p>
-          Des PWA (Progressive Web App) qui remplacent avantageusement les application "mobile" native ? En tous cas, c'est le moyen rapide et moins onéreux pour une application propre en évitant les coûts des Stores classiques !
+          Des PWA (Progressive Web App) qui remplacent avantageusement les applications "mobile" natives ? En tous cas, c'est une alternative efficace, performante et, qui plus est, beaucoup moins onéreuse pour un résultat probant qui évite les coûts prohibitifs des Stores classiques !
         </p>
       `
     })
