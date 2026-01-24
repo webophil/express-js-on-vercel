@@ -100,21 +100,107 @@ app.get('/', (req, res) => {
         'Outils et aides au développement en Vibe Coding – SEO et environnement React / TypeScript.',
       canonical: 'https://outils.phildev.fr/',
       content: `
-        <h1>Outils Vibe Coding</h1>
+        <h1>Outils & Ressources Vibe Coding</h1>
 
-        <img src="vibecoding.jpg" width="180" alt="Vibe Coding à Reims" class="image-gauche">
-        <p>
-          Ressources, analyses et outils autour du développement web moderne,
-          du SEO adapté et des applications web React/TypeScript.
-        </p>
+<img src="vibecoding.jpg" width="180" alt="Vibe Coding à Reims" class="image-gauche">
 
-        <p>
-          Vibe Coding VS no-code ou low-code : les applications développées en Vibe ou no-code sont-elles stables et exploitables à grande échelle ? Oui, si on contrôle et gère l'architecture et la hiérarchie du code. OUI si on utilise les bons leviers de protection et de sécurisation !
-        </p>
+<p class="intro">
+Ce site regroupe des <strong>ressources pratiques autour du Vibe Coding</strong>,
+du développement web assisté par l’IA, et de la création d’applications modernes
+efficaces, accessibles et bien pensées.
+</p>
 
-        <p>
-          Des PWA (Progressive Web App) qui remplacent avantageusement les applications "mobile" natives ? En tous cas, c'est une alternative efficace, performante et, qui plus est, beaucoup moins onéreuse pour un résultat probant qui évite les coûts prohibitifs des Stores classiques !
-        </p>
+<p>
+Ici, pas de recettes magiques ni de promesses floues.
+On parle de <strong>ce qui fonctionne vraiment</strong> quand on développe avec l’IA,
+que l’on soit développeur débutant, curieux de ces nouveaux outils,
+ou professionnel cherchant des solutions concrètes.
+</p>
+
+<p>
+Vibe Coding, PWA, SEO sans SSR, UI lisible et utile, IA appliquée aux services web :
+autant de sujets abordés avec un objectif simple :
+<strong>créer mieux, plus vite, et de façon maîtrisée</strong>.
+</p>
+
+<hr class="separator">
+
+<h2>Explorer les thématiques</h2>
+
+<div class="cards-grid">
+
+  <div class="card">
+    <h3>Vibe Coding & IA générative</h3>
+    <p>
+      Comment utiliser l’IA pour développer sans perdre le contrôle du code,
+      comprendre ce qu’on génère et construire des bases solides.
+    </p>
+    <ul>
+      <li>Vibe Coding vs no-code et low-code</li>
+      <li>Bien prompter pour éviter le code bancal</li>
+      <li>Architecture minimale mais propre</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>PWA & applications web modernes</h3>
+    <p>
+      Les Progressive Web Apps comme alternative crédible aux applications
+      mobiles natives, sans App Store ni coûts excessifs.
+    </p>
+    <ul>
+      <li>PWA pour commerces et artisans</li>
+      <li>Installation mobile sans friction</li>
+      <li>Cas concrets d’usage grand public</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>SEO & visibilité des apps JavaScript</h3>
+    <p>
+      Comment rendre visibles des applications React ou TypeScript
+      malgré l’absence de SSR, avec des solutions simples et efficaces.
+    </p>
+    <ul>
+      <li>HTML statique et SEO intelligent</li>
+      <li>JSON-LD et contenu utile</li>
+      <li>Donner du “jus” à un site principal</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>UI : faire simple, lisible et efficace</h3>
+    <p>
+      Une interface n’a pas besoin d’être complexe pour être efficace.
+      Ici, on privilégie la clarté, la hiérarchie et l’usage réel.
+    </p>
+    <ul>
+      <li>Design utile vs design décoratif</li>
+      <li>Lisibilité mobile avant tout</li>
+      <li>Moins d’effets, plus d’efficacité</li>
+    </ul>
+  </div>
+
+</div>
+
+<hr class="separator">
+
+<h2>Des concepts appliqués sur des projets réels</h2>
+
+<p>
+Les idées et méthodes présentées ici ne sont pas théoriques.
+Elles sont utilisées dans des projets concrets,
+des applications web et des Progressive Web Apps
+développées pour des usages réels.
+</p>
+
+<p>
+C’est cette approche pragmatique que je mets également en œuvre
+dans mon activité de développement web sur
+<a href="https://phildev.fr" target="_blank"><strong>PhilDEV.fr</strong></a>,
+au service des professionnels, commerçants et porteurs de projets.
+</p>
+
       `
     })
   )
