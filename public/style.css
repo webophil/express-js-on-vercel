@@ -162,6 +162,25 @@ main.container {
   margin-bottom: 0.3em;
 }
 
+.menu-cards .card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-cards .card-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+
+.card-subtitle {
+  font-size: 0.95em;
+  font-style: italic;
+  opacity: 0.85;
+  margin-bottom: 0.6em;
+}
+
 
 /* Iframe responsive */
 iframe {
