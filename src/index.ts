@@ -197,7 +197,7 @@ autant de sujets abordés avec un objectif simple :
     </p>
     <ul>
       <li>HTML statique et SEO intelligent</li>
-      <li><a href="/auditseo/">JSON-LD et contenu utile - Audit SEO Vibe Coding</a></li>
+      <li><a href="/auditseo/">JSON-LD et contenu utile - Audit SEO Vibe Coding Lire→</a></li>
       <li>Donner du “jus” à un site principal</li>
     </ul>
   </div>
