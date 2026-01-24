@@ -125,6 +125,33 @@ autant de sujets abordés avec un objectif simple :
 
 <hr class="separator">
 
+<div class="cards-grid menu-cards">
+
+  <a href="/pwa-mobile" class="card card-link">
+    <h3>Applis Web</h3>
+    <p class="card-subtitle">
+      Les Progressive Web Apps, en direct sur les mobiles de votre public
+    </p>
+    <p>
+      Des applications installables, rapides et efficaces,
+      sans App Store ni contraintes inutiles.
+    </p>
+  </a>
+
+  <div class="card">
+    <h3>Vibe Coding & IA</h3>
+    <p class="card-subtitle">
+      Développer avec l’IA sans perdre la maîtrise du code
+    </p>
+    <p>
+      Prompts, architecture, limites du no-code
+      et bonnes pratiques pour débuter sereinement.
+    </p>
+  </div>
+
+</div>
+
+
 <h2>Explorer les thématiques</h2>
 
 <div class="cards-grid">
