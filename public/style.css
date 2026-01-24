@@ -116,6 +116,52 @@ main.container {
   margin-top: 100px; /* ou la hauteur exacte de ton header */
 }
 
+.intro {
+  font-size: 1.05em;
+  margin-bottom: 1em;
+}
+
+.separator {
+  margin: 2.5em 0;
+  border: none;
+  border-top: 1px solid #444;
+  opacity: 0.4;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5em;
+  margin-top: 1.5em;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 14px;
+  padding: 1.2em 1.4em;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.15em;
+}
+
+.card p {
+  font-size: 0.95em;
+  opacity: 0.9;
+}
+
+.card ul {
+  padding-left: 1.2em;
+  margin-top: 0.6em;
+}
+
+.card ul li {
+  font-size: 0.9em;
+  margin-bottom: 0.3em;
+}
+
 
 /* Iframe responsive */
 iframe {
