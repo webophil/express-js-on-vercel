@@ -184,24 +184,31 @@ main.container {
 .card-header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 0.4em;
+  align-items: flex-start;   /* ← clé ici */
+  gap: 0.8em;
 }
 
 .card-header h3 {
   margin: 0;
+  line-height: 1.2;
 }
 
 .card-read {
   font-size: 0.85em;
-  opacity: 0.65;
+  opacity: 0.7;
   white-space: nowrap;
+  line-height: 1.2;
 }
 
 .card-link:hover .card-read {
   opacity: 1;
   text-decoration: underline;
 }
+
+.card-read::after {
+  content: " →";
+}
+
 
 
 /* Iframe responsive */
