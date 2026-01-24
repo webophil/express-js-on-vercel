@@ -181,6 +181,28 @@ main.container {
   margin-bottom: 0.6em;
 }
 
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.4em;
+}
+
+.card-header h3 {
+  margin: 0;
+}
+
+.card-read {
+  font-size: 0.85em;
+  opacity: 0.65;
+  white-space: nowrap;
+}
+
+.card-link:hover .card-read {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 
 /* Iframe responsive */
 iframe {
