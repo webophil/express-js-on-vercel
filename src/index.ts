@@ -130,12 +130,12 @@ autant de sujets abordés avec un objectif simple :
   <a href="/pwa-mobile" class="card card-link">
 
   <div class="card-header">
-    <h3>Applis Web</h3>
-    <span class="card-read">Lire →</span>
+    <h3>Applis Web pour mobiles</h3>
+    <span class="card-read">Lire</span>
   </div>
 
   <p class="card-subtitle">
-    Les Progressive Web Apps, en direct sur les mobiles de votre public
+    Les Progressive Web Apps (PWA), en direct sur les mobiles de votre public, de vos clients !
   </p>
 
   <p>
