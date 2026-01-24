@@ -128,15 +128,22 @@ autant de sujets abordés avec un objectif simple :
 <div class="cards-grid menu-cards">
 
   <a href="/pwa-mobile" class="card card-link">
-    <h3>Applis Web Mobile</h3>
-    <p class="card-subtitle">
-      Les Progressive Web Apps, en direct sur les mobiles de votre public et de vos clients !
-    </p>
-    <p>
-      Des applications installables, rapides et efficaces,
-      sans App Store ni contraintes inutiles et coûteuses.
-    </p>
-  </a>
+
+  <div class="card-header">
+    <h3>Applis Web</h3>
+    <span class="card-read">Lire →</span>
+  </div>
+
+  <p class="card-subtitle">
+    Les Progressive Web Apps, en direct sur les mobiles de votre public
+  </p>
+
+  <p>
+    Des applications installables, rapides et efficaces,
+    sans App Store ni contraintes inutiles.
+  </p>
+
+</a>
 
   <div class="card">
     <h3>Vibe Coding & IA</h3>
