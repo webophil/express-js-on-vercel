@@ -7,6 +7,10 @@
   margin: 1.5rem 0;
 }
 
+.h3 {
+    font-color: #FFFF00;
+}
+
 .prompt-box {
   max-height: 320px;
   overflow-y: auto;
