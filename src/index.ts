@@ -157,13 +157,12 @@ autant de sujets abordés avec un objectif simple :
 </a>
 
   <div class="card">
-    <h3>Vibe Coding & IA</h3>
+    <h3>Services avec IA</h3>
     <p class="card-subtitle">
-      Développer avec l’IA sans perdre la maîtrise du code
+      Intégrer l’IA à votre métier en toute simplicité
     </p>
     <p>
-      Prompts, architecture, limites du no-code
-      et bonnes pratiques pour débuter sereinement.
+      ChatBots, Assistance Clients, Plans de travail, Suivi détaillé de vos process...
     </p>
   </div>
 
@@ -200,18 +199,7 @@ autant de sujets abordés avec un objectif simple :
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Vibe Coding & IA générative</h3>
-    <p>
-      Comment utiliser l’IA pour développer sans perdre le contrôle du code,
-      comprendre ce qu’on génère et construire des bases solides.
-    </p>
-    <ul>
-      <li>Vibe Coding vs no-code et low-code</li>
-      <li>Bien prompter pour éviter le code bancal</li>
-      <li>Architecture minimale mais propre</li>
-    </ul>
-  </div>
+  
 
   <div class="card">
     <h3>SEO & visibilité des apps JavaScript</h3>
