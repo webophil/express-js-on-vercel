@@ -190,6 +190,19 @@ autant de sujets abordés avec un objectif simple :
   </div>
 
   <div class="card">
+    <h3>Vibe Coding & IA générative</h3>
+    <p>
+      Comment utiliser l’IA pour développer sans perdre le contrôle du code,
+      comprendre ce qu’on génère et construire des bases solides.
+    </p>
+    <ul>
+      <li>Vibe Coding vs no-code et low-code</li>
+      <li>Bien prompter pour éviter le code bancal</li>
+      <li>Architecture minimale mais propre</li>
+    </ul>
+  </div>
+
+  <div class="card">
     <h3>SEO & visibilité des apps JavaScript</h3>
     <p>
       Comment rendre visibles des applications React ou TypeScript
