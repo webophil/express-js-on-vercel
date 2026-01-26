@@ -157,12 +157,12 @@ autant de sujets abordés avec un objectif simple :
 </a>
 
   <div class="card">
-    <h3>Services avec IA</h3>
+    <h3>Les Agents IA</h3>
     <p class="card-subtitle">
-      Intégrer l’IA à votre métier en toute simplicité
+      L’IA vous assiste dans votre métier en toute simplicité
     </p>
     <p>
-      ChatBots, Assistance Clients, Plans de travail, Suivi détaillé de vos process...
+      ChatBots, Assistance Clients, plans de travail, suivi détaillé de vos process, devis, facturation...
     </p>
   </div>
 
