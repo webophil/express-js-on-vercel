@@ -127,6 +127,17 @@ autant de sujets abordés avec un objectif simple :
 
 <div class="cards-grid menu-cards">
 
+  <div class="card">
+    <h3>Vibe Coding & IA</h3>
+    <p class="card-subtitle">
+      Développer avec l’IA sans perdre la maîtrise du code
+    </p>
+    <p>
+      Prompts, architecture, limites du no-code
+      et bonnes pratiques pour débuter sereinement.
+    </p>
+  </div>
+  
   <a href="/pwa-mobile" class="card card-link">
 
   <div class="card-header">
