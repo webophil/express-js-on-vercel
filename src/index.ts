@@ -126,7 +126,7 @@ autant de sujets abordés avec un objectif simple :
 <hr class="separator">
 
 <div class="cards-grid menu-cards">
-    <a href="/" class="card card-link">
+    <a href="/vibe-coding" class="card card-link">
     <div class="card-header">
     <h3>Vibe Coding & IA</h3>
     <span class="card-read">Lire</span>
@@ -287,6 +287,23 @@ app.get('/pwa-mobile', (req, res) => {
       description:
         'Création de Progressive Web Apps pour mobile, installable sur tous les téléphones',
       canonical: 'https://outils.phildev.fr/pwa-mobile',
+      content: auditContent
+    })
+  )
+})
+// Vibe Coding
+app.get('/vibe-coding', (req, res) => {
+  const auditContent = fs.readFileSync(
+    path.join(__dirname, '..', 'components', 'vibe-coding.htm'),
+    'utf8'
+  )
+
+  res.type('html').send(
+    renderPage({
+      title: 'Vibe Coding : développer avec l’IA en gardant la maîtrise',
+      description:
+        'Découvrir le Vibe Coding, une approche moderne du développement assisté par l’IA, ses avantages, ses limites et ses usages professionnels.',
+      canonical: 'https://outils.phildev.fr/vibe-coding',
       content: auditContent
     })
   )
