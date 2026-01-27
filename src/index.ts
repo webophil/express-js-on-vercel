@@ -146,7 +146,7 @@ autant de sujets abordés avec un objectif simple :
   </div>
 
   <p class="card-subtitle">
-    Les Progressive Web Apps (PWA), en direct sur les mobiles de votre public, de vos clients !
+    Les Progressive Web Apps (PWA), vous êtes sur les mobiles de vos clients !
   </p>
 
   <p>
