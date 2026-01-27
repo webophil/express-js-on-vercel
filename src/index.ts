@@ -126,18 +126,19 @@ autant de sujets abordés avec un objectif simple :
 <hr class="separator">
 
 <div class="cards-grid menu-cards">
-
-  <div class="card-header">
+    <a href="/" class="card card-link">
+    <div class="card-header">
     <h3>Vibe Coding & IA</h3>
     <span class="card-read">Lire</span>
-    <p class="card-subtitle">
+    </div>
+    <p class="card-subtitle"> 
       Développer avec l’IA sans perdre la maîtrise du code
     </p>
     <p>
       Prompts, architecture, limites du no-code
       et bonnes pratiques pour débuter sereinement.
     </p>
-  </div>
+  </a>
   
   <a href="/pwa-mobile" class="card card-link">
 
@@ -156,17 +157,19 @@ autant de sujets abordés avec un objectif simple :
   </p>
 
 </a>
-
+   
+<a href="/" class="card card-link">
   <div class="card-header">
     <h3>Les Agents IA</h3>
     <span class="card-read">Lire</span>
+    </div>
     <p class="card-subtitle">
       L’IA vous assiste dans votre métier en toute simplicité
     </p>
     <p>
       ChatBots, Assistance Clients, plans de travail, suivi détaillé de vos process, devis, facturation...
     </p>
-  </div>
+  </a>
 
 </div>
 
