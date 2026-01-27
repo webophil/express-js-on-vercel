@@ -129,6 +129,7 @@ autant de sujets abordés avec un objectif simple :
 
   <div class="card">
     <h3>Vibe Coding & IA</h3>
+    <span class="card-read">Lire</span>
     <p class="card-subtitle">
       Développer avec l’IA sans perdre la maîtrise du code
     </p>
@@ -158,6 +159,7 @@ autant de sujets abordés avec un objectif simple :
 
   <div class="card">
     <h3>Les Agents IA</h3>
+    <span class="card-read">Lire</span>
     <p class="card-subtitle">
       L’IA vous assiste dans votre métier en toute simplicité
     </p>
