@@ -141,17 +141,17 @@ autant de sujets abordés avec un objectif simple :
   <a href="/pwa-mobile" class="card card-link">
 
   <div class="card-header">
-    <h3>Applis Web pour mobiles</h3>
+    <h3>Applis Mobiles</h3>
     <span class="card-read">Lire</span>
   </div>
 
   <p class="card-subtitle">
-    Les Progressive Web Apps (PWA), vous êtes sur les mobiles de vos clients !
+    Progressive Web Apps, facilement sur les mobiles de vos clients
   </p>
 
   <p>
     Des applications installables, rapides et efficaces,
-    sans App Store ni contraintes inutiles.
+    sans App Stores ni contraintes inutiles.
   </p>
 
 </a>
