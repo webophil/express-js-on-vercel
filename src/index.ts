@@ -127,7 +127,7 @@ autant de sujets abordés avec un objectif simple :
 
 <div class="cards-grid menu-cards">
 
-  <div class="card">
+  <div class="card-header">
     <h3>Vibe Coding & IA</h3>
     <span class="card-read">Lire</span>
     <p class="card-subtitle">
@@ -157,7 +157,7 @@ autant de sujets abordés avec un objectif simple :
 
 </a>
 
-  <div class="card">
+  <div class="card-header">
     <h3>Les Agents IA</h3>
     <span class="card-read">Lire</span>
     <p class="card-subtitle">
