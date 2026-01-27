@@ -300,7 +300,7 @@ app.get('/vibe-coding', (req, res) => {
 
   res.type('html').send(
     renderPage({
-      title: 'Vibe Coding : développer avec l’IA en gardant la maîtrise',
+      title: 'Vibe Coding - développer avec l’IA en gardant la maîtrise',
       description:
         'Découvrir le Vibe Coding, une approche moderne du développement assisté par l’IA, ses avantages, ses limites et ses usages professionnels.',
       canonical: 'https://outils.phildev.fr/vibe-coding',
