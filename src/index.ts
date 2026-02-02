@@ -186,7 +186,7 @@ autant de sujets abordés avec un objectif simple :
     </p>
     <ul>
       <li>Vibe Coding vs no-code et low-code</li>
-      <li>Bien prompter pour éviter le code bancal</li>
+      <li><a href="/prompt-ideal-vibe-coding">Bien prompter pour éviter le code bancal</a></li>
       <li>Architecture minimale mais propre</li>
     </ul>
   </div>
