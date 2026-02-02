@@ -309,6 +309,24 @@ app.get('/vibe-coding', (req, res) => {
   )
 })
 
+// Prompt Idéal Vibe Coding
+app.get('/prompt-ideal-vibe-coding', (req, res) => {
+  const auditContent = fs.readFileSync(
+    path.join(__dirname, '..', 'components', 'prompt-ideal-vibe-coding.htm'),
+    'utf8'
+  )
+
+  res.type('html').send(
+    renderPage({
+      title: 'Prompt Vibe Coding - de l'idée à la création par l'IA',
+      description:
+        'Comment structurer un prompt efficace en Vibe Coding pour créer une application avec un code propre et évolutif',
+      canonical: 'https://outils.phildev.fr/prompt-ideal-vibe-coding',
+      content: auditContent
+    })
+  )
+})
+
 
 /* -------------------------------------------------
    Export app (Vercel)
