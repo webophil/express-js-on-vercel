@@ -322,7 +322,7 @@ app.get('/prompt-ideal-vibe-coding', (req, res) => {
       description:
         'Comment structurer un prompt efficace en Vibe Coding pour créer une application avec un code propre et évolutif',
       canonical: 'https://outils.phildev.fr/prompt-ideal-vibe-coding',
-      content: promptContent
+      content: auditContent
     })
   )
 })
