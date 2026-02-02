@@ -318,7 +318,7 @@ app.get('/prompt-ideal-vibe-coding', (req, res) => {
 
   res.type('html').send(
     renderPage({
-      title: 'Prompt Vibe Coding - de l'idée à la création par IA',
+      title: "Prompt Vibe Coding - de l'idée à la création par IA",
       description:
         'Comment structurer un prompt efficace en Vibe Coding pour créer une application avec un code propre et évolutif',
       canonical: 'https://outils.phildev.fr/prompt-ideal-vibe-coding',
