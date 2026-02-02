@@ -287,7 +287,7 @@ app.get('/pwa-mobile', (req, res) => {
       description:
         'Création de Progressive Web Apps pour mobile, installable sur tous les téléphones',
       canonical: 'https://outils.phildev.fr/pwa-mobile',
-      content: auditContent
+      content: pwaContent
     })
   )
 })
@@ -304,7 +304,7 @@ app.get('/vibe-coding', (req, res) => {
       description:
         'Découvrir le Vibe Coding, une approche moderne du développement assisté par l’IA, ses avantages, ses limites et ses usages professionnels.',
       canonical: 'https://outils.phildev.fr/vibe-coding',
-      content: auditContent
+      content: vibeContent
     })
   )
 })
@@ -322,7 +322,7 @@ app.get('/prompt-ideal-vibe-coding', (req, res) => {
       description:
         'Comment structurer un prompt efficace en Vibe Coding pour créer une application avec un code propre et évolutif',
       canonical: 'https://outils.phildev.fr/prompt-ideal-vibe-coding',
-      content: auditContent
+      content: promptContent
     })
   )
 })
