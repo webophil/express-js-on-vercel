@@ -1,6 +1,6 @@
 {
   "name": "express",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
   "keywords": [],
@@ -14,3 +14,4 @@
     "@types/node": "^22.0.0"
   }
 }
+
