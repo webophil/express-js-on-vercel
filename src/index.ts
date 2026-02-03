@@ -327,6 +327,25 @@ app.get('/prompt-ideal-vibe-coding', (req, res) => {
   )
 })
 
+// Agents IA
+app.get('/agents-ia', (req, res) => {
+  const auditContent = fs.readFileSync(
+    path.join(__dirname, '..', 'components', 'agents-ia.htm'),
+    'utf8'
+  )
+
+  res.type('html').send(
+    renderPage({
+      title: "Les agents IA – automatiser le travail sans remplacer l’humain",
+      description:
+        "Comprendre simplement ce que sont les agents IA, leur rôle dans les workflows et comment ils automatisent des tâches au service des professionnels.",
+      canonical: 'https://outils.phildev.fr/agents-ia',
+      content: auditContent
+    })
+  )
+})
+
+
 
 /* -------------------------------------------------
    Export app (Vercel)
