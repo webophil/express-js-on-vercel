@@ -11,6 +11,10 @@ h3 {
   color: #ebc934;
 }
 
+h2 {
+  color: #82ebf2;
+}
+
 .prompt-box {
   max-height: 320px;
   overflow-y: auto;
