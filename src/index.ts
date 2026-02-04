@@ -100,7 +100,7 @@ app.get('/', (req, res) => {
         'Outils et aides au développement en Vibe Coding – SEO et environnement React / TypeScript.',
       canonical: 'https://outils.phildev.fr/',
       content: `
-        <h1>Outils & Ressources Vibe Coding</h1>
+        <h1>Outils, Tutos & Ressources Vibe Coding</h1>
 
 <img src="vibecoding.jpg" width="180" alt="Vibe Coding à Reims" class="image-gauche">
 
