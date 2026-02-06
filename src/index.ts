@@ -220,15 +220,16 @@ autant de sujets abordés avec un objectif simple :
   </div>
 
   <div class="card">
-    <h3>UI : faire simple, lisible et efficace</h3>
+    <h3>Design Web : faire simple, lisible et efficace</h3>
     <p>
-      Une interface n’a pas besoin d’être complexe pour être efficace.
+      L'UI (User Interface) n’a pas besoin d’être complexe pour être efficace.
       Ici, on privilégie la clarté, la hiérarchie et l’usage réel.
     </p>
     <ul>
       <li><a href="/design-site-web">Design utile vs design décoratif</a></li>
       <li>Lisibilité mobile avant tout</li>
       <li>Moins d’effets, plus d’efficacité</li>
+      <li>UI/UX : ergonomie d'une app</li>
     </ul>
   </div>
 
