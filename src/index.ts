@@ -345,6 +345,24 @@ app.get('/agents-ia', (req, res) => {
   )
 })
 
+// Design de site web
+app.get('/design-site-web', (req, res) => {
+  const designContent = fs.readFileSync(
+    path.join(__dirname, '..', 'components', 'design-site-web.htm'),
+    'utf8'
+  )
+
+  res.type('html').send(
+    renderPage({
+      title: "Le design d’un site web – première impression, lisibilité et confiance",
+      description:
+        "Comprendre le rôle du design d’un site web : orienter la lecture, structurer l’information et inspirer confiance, avec une approche accessible et orientée projets modernes.",
+      canonical: 'https://outils.phildev.fr/design-site-web',
+      content: designContent
+    })
+  )
+})
+
 
 
 /* -------------------------------------------------
