@@ -226,7 +226,7 @@ autant de sujets abordés avec un objectif simple :
       Ici, on privilégie la clarté, la hiérarchie et l’usage réel.
     </p>
     <ul>
-      <li>Design utile vs design décoratif</li>
+      <li><a href="/design-site-web">Design utile vs design décoratif</a></li>
       <li>Lisibilité mobile avant tout</li>
       <li>Moins d’effets, plus d’efficacité</li>
     </ul>
