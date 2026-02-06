@@ -43,5 +43,12 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://outils.phildev.fr/design-site-web</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 
 </urlset>
