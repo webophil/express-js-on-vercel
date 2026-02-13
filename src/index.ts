@@ -364,7 +364,23 @@ app.get('/design-site-web', (req, res) => {
   )
 })
 
+// PWA commerce local
+app.get('/pwa-commerce-local', (req, res) => {
+  const content = fs.readFileSync(
+    path.join(__dirname, '..', 'components', 'pwa-commerce-local.htm'),
+    'utf8'
+  )
 
+  res.type('html').send(
+    renderPage({
+      title: 'Progressive Web App pour commerce local',
+      description:
+        'Application mobile au format Progressive Web App pour restaurant, bar et commerce de proximité.',
+      canonical: 'https://outils.phildev.fr/pwa-commerce-local',
+      content
+    })
+  )
+})
 
 /* -------------------------------------------------
    Export app (Vercel)
