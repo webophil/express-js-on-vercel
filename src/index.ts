@@ -198,7 +198,7 @@ autant de sujets abordés avec un objectif simple :
       mobiles natives, sans App Store ni coûts excessifs.
     </p>
     <ul>
-      <li>PWA pour commerces et artisans</li>
+      <li><a href="/pwa-commerce-local">PWA pour commerces et artisans</a></li>
       <li>Installation mobile sans friction</li>
       <li>Cas concrets d’usage grand public</li>
     </ul>
